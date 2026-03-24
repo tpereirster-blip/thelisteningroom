@@ -27,7 +27,7 @@ export const events: Event[] = [
     featured: true,
     cardBg: '#1A1A1A',
     cardAccent: '#C4922A',
-    coverArt: 'https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/a0/3d/07/a03d074f-5a64-4ece-0cfb-06ff42114f04/4062994865672_cover.jpg/600x600bb.jpg',
+    coverArt: '/covers/killer-mike-michael.jpg',
   },
   {
     id: '2',
@@ -54,7 +54,7 @@ export const events: Event[] = [
     featured: true,
     cardBg: '#3D2B1A',
     cardAccent: '#D4A847',
-    coverArt: 'https://is1-ssl.mzstatic.com/image/thumb/Music118/v4/15/05/09/15050911-a2f1-9ebc-0d16-6e8faad1cf80/00602567924326.rgb.jpg/600x600bb.jpg',
+    coverArt: '/covers/kanye-college-dropout.jpg',
   },
   {
     id: '3',
@@ -81,7 +81,7 @@ export const events: Event[] = [
     featured: false,
     cardBg: '#2C1810',
     cardAccent: '#F2EBD9',
-    coverArt: 'https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/0e/90/3c/0e903c43-9d81-f91b-90f1-727a58f7fb2c/00602498824030.rgb.jpg/600x600bb.jpg',
+    coverArt: '/covers/kanye-late-registration.jpg',
   },
   {
     id: '4',
@@ -108,7 +108,7 @@ export const events: Event[] = [
     featured: false,
     cardBg: '#0D1A0D',
     cardAccent: '#C4922A',
-    coverArt: 'https://is1-ssl.mzstatic.com/image/thumb/Music112/v4/b8/5c/06/b85c063f-55e0-3b33-ed53-3e665a41f7ae/19UMGIM70165.rgb.jpg/600x600bb.jpg',
+    coverArt: '/covers/young-jeezy-thug-motivation.jpg',
   },
   {
     id: '5',
@@ -135,7 +135,7 @@ export const events: Event[] = [
     featured: true,
     cardBg: '#1E2D1E',
     cardAccent: '#D4A847',
-    coverArt: 'https://is1-ssl.mzstatic.com/image/thumb/Music118/v4/eb/1f/12/eb1f12ec-474c-63aa-43af-09282f423b9d/00602537004737.rgb.jpg/600x600bb.jpg',
+    coverArt: '/covers/stevie-wonder-songs.jpg',
   },
   {
     id: '6',
@@ -162,7 +162,7 @@ export const events: Event[] = [
     featured: true,
     cardBg: '#3D1A00',
     cardAccent: '#D4A847',
-    coverArt: 'https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/42/62/50/426250f9-7e39-f907-687c-442caa436636/dj.nhptxziz.jpg/600x600bb.jpg',
+    coverArt: '/covers/frank-ocean-channel-orange.jpg',
   },
   {
     id: '7',
@@ -189,7 +189,7 @@ export const events: Event[] = [
     featured: true,
     cardBg: '#1A1A2E',
     cardAccent: '#C4922A',
-    coverArt: 'https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/8d/76/23/8d76234b-5101-fa9b-58b3-5e17645d5b05/00602527744209.rgb.jpg/600x600bb.jpg',
+    coverArt: '/covers/frank-ocean-blonde.jpg',
   },
   {
     id: '8',
@@ -216,7 +216,7 @@ export const events: Event[] = [
     featured: true,
     cardBg: '#1A0A2E',
     cardAccent: '#D4A847',
-    coverArt: 'https://is1-ssl.mzstatic.com/image/thumb/Music112/v4/9a/50/a1/9a50a1d8-01c2-2504-8d99-3f2fc7e5c2ff/12UMGIM52988.rgb.jpg/600x600bb.jpg',
+    coverArt: '/covers/kendrick-gkmc.jpg',
   },
   {
     id: '9',
@@ -243,7 +243,7 @@ export const events: Event[] = [
     featured: false,
     cardBg: '#2A1A0A',
     cardAccent: '#C4922A',
-    coverArt: 'https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/f5/78/d1/f578d11c-a1b9-1bb5-ea04-cbe509dbec60/0878390003723_cover.jpg/600x600bb.jpg',
+    coverArt: '/covers/badbadnotgood-sour-soul.jpg',
   },
   {
     id: '10',
@@ -270,7 +270,7 @@ export const events: Event[] = [
     featured: false,
     cardBg: '#0A2A1A',
     cardAccent: '#D4A847',
-    coverArt: 'https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/71/70/3c/71703c0f-f3d1-c6ad-d7e6-d04c16f200ae/657481106884_cover.jpg/600x600bb.jpg',
+    coverArt: '/covers/protoje-matter-of-time.jpg',
   },
 ]
 
