@@ -139,6 +139,9 @@ export default function RSVPModal({ event, onClose }: Props) {
                   : `Reserve — $${event.price * form.tickets}`}
               </button>
 
+              <p className="font-body text-parchment/40 text-xs text-center">
+                Includes one complimentary drink per ticket.
+              </p>
               <p className="font-body text-parchment/30 text-xs text-center">
                 {event.spotsLeft} seats remaining out of {event.capacity}
               </p>

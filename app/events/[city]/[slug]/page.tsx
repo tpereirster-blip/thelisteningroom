@@ -167,7 +167,10 @@ export default function EventDetailPage({ params }: Props) {
           >
             Reserve Your Seat — ${event.price}
           </button>
-          <p className="font-body text-parchment/30 text-xs text-center mt-3">
+          <p className="font-body text-gold/60 text-xs text-center mt-3">
+            One complimentary drink included with every ticket.
+          </p>
+          <p className="font-body text-parchment/30 text-xs text-center mt-1">
             No shows. No phones. No refunds after 48 hours.
           </p>
         </div>

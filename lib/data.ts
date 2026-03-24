@@ -16,7 +16,7 @@ export const events: Event[] = [
     date: '2026-04-11T20:00:00',
     doorsTime: '7:30 PM',
     startTime: '8:00 PM',
-    price: 25,
+    price: 15,
     capacity: 60,
     spotsLeft: 20,
     description:
@@ -42,7 +42,7 @@ export const events: Event[] = [
     date: '2026-04-25T20:00:00',
     doorsTime: '7:30 PM',
     startTime: '8:00 PM',
-    price: 25,
+    price: 15,
     capacity: 55,
     spotsLeft: 19,
     description:
@@ -68,7 +68,7 @@ export const events: Event[] = [
     date: '2026-05-09T20:00:00',
     doorsTime: '7:00 PM',
     startTime: '7:30 PM',
-    price: 25,
+    price: 15,
     capacity: 70,
     spotsLeft: 34,
     description:
@@ -94,7 +94,7 @@ export const events: Event[] = [
     date: '2026-05-23T20:00:00',
     doorsTime: '7:30 PM',
     startTime: '8:00 PM',
-    price: 20,
+    price: 15,
     capacity: 80,
     spotsLeft: 41,
     description:
@@ -120,7 +120,7 @@ export const events: Event[] = [
     date: '2026-06-06T19:30:00',
     doorsTime: '7:00 PM',
     startTime: '7:30 PM',
-    price: 30,
+    price: 15,
     capacity: 60,
     spotsLeft: 12,
     description:
@@ -148,7 +148,7 @@ export const events: Event[] = [
     date: '2026-04-18T20:00:00',
     doorsTime: '7:30 PM',
     startTime: '8:00 PM',
-    price: 25,
+    price: 15,
     capacity: 75,
     spotsLeft: 28,
     description:
@@ -174,7 +174,7 @@ export const events: Event[] = [
     date: '2026-05-02T19:30:00',
     doorsTime: '7:00 PM',
     startTime: '7:30 PM',
-    price: 25,
+    price: 15,
     capacity: 50,
     spotsLeft: 9,
     description:
@@ -200,7 +200,7 @@ export const events: Event[] = [
     date: '2026-05-16T20:00:00',
     doorsTime: '7:30 PM',
     startTime: '8:00 PM',
-    price: 25,
+    price: 15,
     capacity: 90,
     spotsLeft: 47,
     description:
@@ -226,7 +226,7 @@ export const events: Event[] = [
     date: '2026-06-13T20:00:00',
     doorsTime: '7:30 PM',
     startTime: '8:00 PM',
-    price: 20,
+    price: 15,
     capacity: 50,
     spotsLeft: 23,
     description:
@@ -252,7 +252,7 @@ export const events: Event[] = [
     date: '2026-06-27T20:00:00',
     doorsTime: '7:30 PM',
     startTime: '8:00 PM',
-    price: 20,
+    price: 15,
     capacity: 80,
     spotsLeft: 55,
     description:
