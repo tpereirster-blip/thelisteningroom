@@ -17,7 +17,7 @@ export const events: Event[] = [
     doorsTime: '7:30 PM',
     startTime: '8:00 PM',
     price: 15,
-    capacity: 60,
+    capacity: 20,
     spotsLeft: 20,
     description:
       "An Atlanta homecoming. Killer Mike's Michael is one of the most important rap albums of the decade — made right here, about right here. We'll listen front to back and let the city speak.",
@@ -43,8 +43,8 @@ export const events: Event[] = [
     doorsTime: '7:30 PM',
     startTime: '8:00 PM',
     price: 15,
-    capacity: 55,
-    spotsLeft: 19,
+    capacity: 20,
+    spotsLeft: 20,
     description:
       "Before everything else, there was this. We're going back to the debut that changed rap — listening to The College Dropout the way it deserves: together, front to back, with no distractions.",
     albumDescription:
@@ -69,8 +69,8 @@ export const events: Event[] = [
     doorsTime: '7:00 PM',
     startTime: '7:30 PM',
     price: 15,
-    capacity: 70,
-    spotsLeft: 34,
+    capacity: 20,
+    spotsLeft: 20,
     description:
       "The follow-up that might have been even better than the debut. Jon Brion's orchestral arrangements, Kanye at his most ambitious. We'll sit with it and decide for ourselves.",
     albumDescription:
@@ -95,8 +95,8 @@ export const events: Event[] = [
     doorsTime: '7:30 PM',
     startTime: '8:00 PM',
     price: 15,
-    capacity: 80,
-    spotsLeft: 41,
+    capacity: 20,
+    spotsLeft: 20,
     description:
       "Trap music didn't start here, but it was born here. Young Jeezy's debut is an Atlanta document as much as it is an album. We're listening to it like that.",
     albumDescription:
@@ -121,8 +121,8 @@ export const events: Event[] = [
     doorsTime: '7:00 PM',
     startTime: '7:30 PM',
     price: 15,
-    capacity: 60,
-    spotsLeft: 12,
+    capacity: 20,
+    spotsLeft: 20,
     description:
       "A double album that requires the full treatment — two sides, no shortcuts. Songs in the Key of Life is one of the greatest albums ever made by any artist in any genre. Come ready.",
     albumDescription:
@@ -136,8 +136,8 @@ export const events: Event[] = [
   // ── OAKLAND ──────────────────────────────────────────────
   {
     id: '6',
-    slug: 'frank-ocean-channel-orange-oakland-april-2026',
-    city: 'oakland',
+    slug: 'frank-ocean-channel-orange-atlanta-april-2026',
+    city: 'atlanta',
     album: 'channel ORANGE',
     artist: 'Frank Ocean',
     year: 2012,
@@ -149,8 +149,8 @@ export const events: Event[] = [
     doorsTime: '7:30 PM',
     startTime: '8:00 PM',
     price: 15,
-    capacity: 75,
-    spotsLeft: 28,
+    capacity: 20,
+    spotsLeft: 20,
     description:
       "The debut that made everyone stop. channel ORANGE is a once-in-a-generation record — we'll listen to it in the dark and let it do what it does.",
     albumDescription:
@@ -162,8 +162,8 @@ export const events: Event[] = [
   },
   {
     id: '7',
-    slug: 'frank-ocean-blonde-oakland-may-2026',
-    city: 'oakland',
+    slug: 'frank-ocean-blonde-atlanta-may-2026',
+    city: 'atlanta',
     album: 'Blonde',
     artist: 'Frank Ocean',
     year: 2016,
@@ -175,8 +175,8 @@ export const events: Event[] = [
     doorsTime: '7:00 PM',
     startTime: '7:30 PM',
     price: 15,
-    capacity: 50,
-    spotsLeft: 9,
+    capacity: 20,
+    spotsLeft: 20,
     description:
       "Four years of waiting and then this. Blonde rewards the kind of listening we practice here — slow, undistracted, and present. One of the few albums that genuinely improves with every listen.",
     albumDescription:
@@ -188,8 +188,8 @@ export const events: Event[] = [
   },
   {
     id: '8',
-    slug: 'kendrick-gkmc-oakland-may-2026',
-    city: 'oakland',
+    slug: 'kendrick-gkmc-atlanta-may-2026',
+    city: 'atlanta',
     album: 'good kid, m.A.A.d city',
     artist: 'Kendrick Lamar',
     year: 2012,
@@ -201,8 +201,8 @@ export const events: Event[] = [
     doorsTime: '7:30 PM',
     startTime: '8:00 PM',
     price: 15,
-    capacity: 90,
-    spotsLeft: 47,
+    capacity: 20,
+    spotsLeft: 20,
     description:
       "A short film on wax. Kendrick's major label debut is a narrative album that plays best in sequence, in a room, with people who are actually listening. That's exactly what we'll do.",
     albumDescription:
@@ -214,8 +214,8 @@ export const events: Event[] = [
   },
   {
     id: '9',
-    slug: 'badbadnotgood-sour-soul-oakland-june-2026',
-    city: 'oakland',
+    slug: 'badbadnotgood-sour-soul-atlanta-june-2026',
+    city: 'atlanta',
     album: 'Sour Soul',
     artist: 'BADBADNOTGOOD & Ghostface Killah',
     year: 2015,
@@ -227,8 +227,8 @@ export const events: Event[] = [
     doorsTime: '7:30 PM',
     startTime: '8:00 PM',
     price: 15,
-    capacity: 50,
-    spotsLeft: 23,
+    capacity: 20,
+    spotsLeft: 20,
     description:
       "Jazz meets Wu-Tang in one of the most unexpected and perfect collaborations in recent memory. Sour Soul is a short, dense listen — we'll run it twice.",
     albumDescription:
@@ -240,8 +240,8 @@ export const events: Event[] = [
   },
   {
     id: '10',
-    slug: 'protoje-a-matter-of-time-oakland-june-2026',
-    city: 'oakland',
+    slug: 'protoje-a-matter-of-time-atlanta-june-2026',
+    city: 'atlanta',
     album: 'A Matter of Time',
     artist: 'Protoje',
     year: 2018,
@@ -253,8 +253,8 @@ export const events: Event[] = [
     doorsTime: '7:30 PM',
     startTime: '8:00 PM',
     price: 15,
-    capacity: 80,
-    spotsLeft: 55,
+    capacity: 20,
+    spotsLeft: 20,
     description:
       "Protoje is one of the most important voices in contemporary reggae and Oakland has always known it. A Matter of Time is a record about patience, resistance, and joy — fitting for a room like this.",
     albumDescription:
