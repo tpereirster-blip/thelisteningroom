@@ -72,11 +72,8 @@ export default function EventCard({ event, featured = false }: Props) {
             <p className="font-display text-xs tracking-wider text-gold uppercase">
               {formatShortDate(event.date)}
             </p>
-            <p className="font-body text-cream/80 text-sm mt-0.5">
-              {event.venue}
-            </p>
-            <p className="font-body text-cream/40 text-xs">
-              {event.neighborhood}
+            <p className="font-body text-cream/30 text-xs mt-0.5 italic">
+              Location revealed after purchase
             </p>
           </div>
           <div className="text-right shrink-0">

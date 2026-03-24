@@ -52,11 +52,13 @@ export default function RSVPModal({ event, onClose }: Props) {
             <p className="font-display text-gold text-xs tracking-ultra uppercase mb-4">Confirmed ◆</p>
             <h3 className="font-display text-3xl text-cream mb-4">You're in.</h3>
             <p className="font-body italic text-parchment/60 text-base mb-2">
-              Check your inbox for details on {event.venue}.
-            </p>
-            <p className="font-body text-parchment/40 text-sm">
               {formatDate(event.date)} · Doors {event.doorsTime}
             </p>
+            <div className="border border-gold/30 px-6 py-4 mt-6 mb-2">
+              <p className="font-display text-xs tracking-ultra text-gold uppercase mb-1">Your venue</p>
+              <p className="font-display text-lg text-cream">{event.venue}</p>
+              <p className="font-body text-parchment/50 text-sm mt-1">{event.address} · {event.neighborhood}</p>
+            </div>
             <button
               onClick={onClose}
               className="mt-8 font-display text-xs tracking-widest uppercase text-gold border border-gold/40 px-6 py-3 hover:bg-gold hover:text-noir transition-all"

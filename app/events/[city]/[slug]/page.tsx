@@ -122,8 +122,7 @@ export default function EventDetailPage({ params }: Props) {
               { label: 'Date', value: formatDate(event.date) },
               { label: 'Doors', value: event.doorsTime },
               { label: 'Start', value: event.startTime },
-              { label: 'Venue', value: event.venue },
-              { label: 'Address', value: `${event.address}, ${event.neighborhood}` },
+              { label: 'City', value: event.city.charAt(0).toUpperCase() + event.city.slice(1) },
               { label: 'Price', value: `$${event.price} per seat` },
             ].map(({ label, value }) => (
               <div key={label} className="flex gap-6">
@@ -133,6 +132,14 @@ export default function EventDetailPage({ params }: Props) {
                 <dd className="font-body text-cream/80 text-sm leading-relaxed">{value}</dd>
               </div>
             ))}
+            <div className="flex gap-6">
+              <dt className="font-display text-xs tracking-widest text-gold/60 uppercase w-16 shrink-0 pt-0.5">
+                Venue
+              </dt>
+              <dd className="font-body text-cream/30 text-sm italic">
+                Revealed after purchase
+              </dd>
+            </div>
           </dl>
 
           {/* Availability */}
