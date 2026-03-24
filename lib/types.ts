@@ -23,6 +23,7 @@ export interface Event {
   featured: boolean
   cardBg: string
   cardAccent: string
+  coverArt: string
 }
 
 export interface City {
