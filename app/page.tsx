@@ -116,6 +116,60 @@ export default function HomePage() {
         </div>
       </section>
 
+      {/* ─── COMMUNITY MISSION ────────────────────────────────── */}
+      <section className="py-24 px-6 border-t border-gold/10">
+        <div className="max-w-5xl mx-auto">
+          <div className="grid grid-cols-1 lg:grid-cols-2 gap-16 items-center">
+            {/* Left — headline */}
+            <div>
+              <p className="font-display text-xs tracking-ultra text-gold uppercase mb-6">Who This Is For</p>
+              <h2 className="font-display text-4xl md:text-5xl text-cream leading-tight mb-8">
+                Find your<br />
+                <span className="italic text-gold">sonic community.</span>
+              </h2>
+              <div className="w-16 h-px bg-gold/40 mb-8" />
+              <p className="font-body text-parchment/70 text-lg leading-relaxed mb-6">
+                A structured emotional and intellectual processing space — using music as the medium, and the room as the method.
+              </p>
+              <p className="font-body text-parchment/50 text-base leading-relaxed">
+                We believe the right album, heard with the right people, at the right moment, can do what therapy, journaling, and late-night conversations have always tried to do: help you feel something clearly.
+              </p>
+            </div>
+
+            {/* Right — for who */}
+            <div className="border border-gold/20 divide-y divide-gold/10">
+              {[
+                {
+                  label: 'Creatives',
+                  body: 'Writers, designers, directors, makers — people who process the world through art and need spaces that do the same.',
+                },
+                {
+                  label: 'Music Lovers',
+                  body: "Not casual listeners. The ones who read liner notes, remember where they were the first time they heard an album, and have opinions about Side B.",
+                },
+                {
+                  label: 'Deep Feelers',
+                  body: "People who've always used music to name what they couldn't say out loud. This room was built for you.",
+                },
+                {
+                  label: 'The Curious',
+                  body: 'Those who want to understand why a record matters — historically, culturally, personally. The conversation after the listen is as important as the listen.',
+                },
+                {
+                  label: 'Community Seekers',
+                  body: 'Anyone tired of surface-level socializing. Here, the music does the introduction. The rest follows naturally.',
+                },
+              ].map(({ label, body }) => (
+                <div key={label} className="px-6 py-5 hover:bg-gold/5 transition-colors duration-200">
+                  <p className="font-display text-sm text-gold tracking-wider mb-1">{label}</p>
+                  <p className="font-body text-parchment/55 text-sm leading-relaxed">{body}</p>
+                </div>
+              ))}
+            </div>
+          </div>
+        </div>
+      </section>
+
       {/* ─── UPCOMING EVENTS ──────────────────────────────────── */}
       <section className="py-24 px-6">
         <div className="max-w-6xl mx-auto">
