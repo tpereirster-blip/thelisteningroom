@@ -1,5 +1,6 @@
 import Link from 'next/link'
-import { Event, formatShortDate } from '@/lib/data'
+import { formatShortDate } from '@/lib/data'
+import type { Event } from '@/lib/types'
 
 interface Props {
   event: Event
