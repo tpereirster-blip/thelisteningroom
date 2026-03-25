@@ -2,10 +2,10 @@
 
 import { notFound } from 'next/navigation'
 import Link from 'next/link'
+import Image from 'next/image'
 import { useState } from 'react'
 import RSVPModal from '@/components/RSVPModal'
 import { getEventBySlug, getCityById, formatDate } from '@/lib/data'
-import { events } from '@/lib/data'
 
 interface Props {
   params: { city: string; slug: string }
@@ -36,49 +36,15 @@ export default function EventDetailPage({ params }: Props) {
       <div className="max-w-5xl mx-auto px-6 grid grid-cols-1 lg:grid-cols-2 gap-12 lg:gap-16">
         {/* Album visual */}
         <div>
-          <div
-            className="relative w-full aspect-square flex flex-col items-center justify-center p-10 overflow-hidden"
-            style={{ backgroundColor: event.cardBg }}
-          >
-            {/* Vinyl rings */}
-            <div className="absolute inset-0 flex items-center justify-center opacity-10 pointer-events-none">
-              {[800, 600, 450, 300, 160, 60].map((s) => (
-                <div
-                  key={s}
-                  className="absolute rounded-full border-[1px]"
-                  style={{
-                    width: s,
-                    height: s,
-                    borderColor: event.cardAccent,
-                  }}
-                />
-              ))}
-              <div
-                className="absolute w-6 h-6 rounded-full"
-                style={{ backgroundColor: event.cardAccent, opacity: 0.8 }}
-              />
-            </div>
-
-            <div className="relative z-10 text-center">
-              <p
-                className="font-display text-xs tracking-ultra uppercase mb-4"
-                style={{ color: event.cardAccent, opacity: 0.6 }}
-              >
-                {event.year} · {event.genre}
-              </p>
-              <h2
-                className="font-display text-4xl md:text-5xl leading-tight mb-4"
-                style={{ color: event.cardAccent }}
-              >
-                {event.album}
-              </h2>
-              <p
-                className="font-body italic text-xl"
-                style={{ color: event.cardAccent, opacity: 0.75 }}
-              >
-                {event.artist}
-              </p>
-            </div>
+          <div className="relative w-full aspect-square overflow-hidden">
+            <Image
+              src={event.coverArt}
+              alt={`${event.album} by ${event.artist}`}
+              fill
+              className="object-cover"
+              sizes="(max-width: 1024px) 100vw, 50vw"
+              priority
+            />
           </div>
 
           {/* Album description */}

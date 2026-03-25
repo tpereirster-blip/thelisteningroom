@@ -1,4 +1,5 @@
 import Link from 'next/link'
+import Image from 'next/image'
 import { formatShortDate } from '@/lib/data'
 import type { Event } from '@/lib/types'
 
@@ -16,49 +17,25 @@ export default function EventCard({ event, featured = false }: Props) {
       href={`/events/${event.city}/${event.slug}`}
       className="group block border border-gold/20 hover:border-gold/50 transition-all duration-400 overflow-hidden"
     >
-      {/* Album art placeholder */}
-      <div
-        className="relative w-full aspect-square flex flex-col items-center justify-center p-6 overflow-hidden"
-        style={{ backgroundColor: event.cardBg }}
-      >
-        {/* Vinyl ring */}
-        <div className="absolute inset-0 flex items-center justify-center opacity-10">
-          <div className="w-64 h-64 rounded-full border-[1px] border-current" style={{ color: event.cardAccent }} />
-          <div className="absolute w-48 h-48 rounded-full border-[1px] border-current" style={{ color: event.cardAccent }} />
-          <div className="absolute w-32 h-32 rounded-full border-[1px] border-current" style={{ color: event.cardAccent }} />
-          <div className="absolute w-16 h-16 rounded-full border-[1px] border-current" style={{ color: event.cardAccent }} />
-          <div className="absolute w-5 h-5 rounded-full" style={{ backgroundColor: event.cardAccent, opacity: 0.6 }} />
-        </div>
-
-        {/* Album info */}
-        <div className="relative z-10 text-center">
-          <p
-            className="font-display text-xs tracking-ultra uppercase mb-3"
-            style={{ color: event.cardAccent, opacity: 0.7 }}
-          >
-            {event.year} · {event.genre}
-          </p>
-          <h3
-            className="font-display text-2xl md:text-3xl leading-tight mb-2"
-            style={{ color: event.cardAccent }}
-          >
-            {event.album}
-          </h3>
-          <p
-            className="font-body italic text-base"
-            style={{ color: event.cardAccent, opacity: 0.8 }}
-          >
-            {event.artist}
-          </p>
-        </div>
+      {/* Album art */}
+      <div className="relative w-full aspect-square overflow-hidden">
+        <Image
+          src={event.coverArt}
+          alt={`${event.album} by ${event.artist}`}
+          fill
+          className="object-cover group-hover:scale-105 transition-transform duration-500"
+          sizes="(max-width: 640px) 100vw, (max-width: 1024px) 50vw, 25vw"
+        />
+        {/* Overlay on hover */}
+        <div className="absolute inset-0 bg-noir/40 opacity-0 group-hover:opacity-100 transition-opacity duration-300" />
 
         {/* City badge */}
         <div
-          className="absolute top-4 left-4 font-display text-xs tracking-ultra uppercase px-2 py-1"
+          className="absolute top-4 left-4 font-display text-xs tracking-ultra uppercase px-2 py-1 backdrop-blur-sm"
           style={{
-            backgroundColor: event.cardAccent + '22',
+            backgroundColor: event.cardAccent + '33',
             color: event.cardAccent,
-            border: `1px solid ${event.cardAccent}44`,
+            border: `1px solid ${event.cardAccent}66`,
           }}
         >
           {event.city}
